@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.homeContent {
+    display: block;
+}
+
+.picContainer{
+    box-sizing: border-box;
+    padding: 0;
+    width: 65%;
+}
+
+.cardStyle {
+    padding: 0;
+    width: 200px;
+}
+
+.pic {
+    width: auto;
+    border-radius: 6px;
+}
+
+.title {
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    padding-top: 25%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.title:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: transparent;
+}
+
+.detailContainer {
+    text-align: start;
+}
+
+.vStyle {
+    height: auto !important;
+    aspect-ratio: 16/9;
+}
+
+.none {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.styleDivider {
+    --bs-breadcrumb-divider: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'><path d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='#{$breadcrumb-divider-color}'/></svg>")
+}
